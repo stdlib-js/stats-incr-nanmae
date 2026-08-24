@@ -4,13 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-16)
+## Unreleased (2026-08-24)
 
 <section class="features">
 
 ### Features
 
--   [`bbd35c4`](https://github.com/stdlib-js/stdlib/commit/bbd35c47bea4a1d9bd5a1867ba0d370e4e929c9c) - add `stats/incr/incrnanmae` [(#6065)](https://github.com/stdlib-js/stdlib/pull/6065)
+-   [`bbd35c4`](https://github.com/stdlib-js/stdlib/commit/bbd35c47bea4a1d9bd5a1867ba0d370e4e929c9c) - add `stats/incr/nanmae` [(#6065)](https://github.com/stdlib-js/stdlib/pull/6065)
 
 </section>
 
@@ -34,7 +34,7 @@ This release closes the following issue:
 
 <details>
 
--   [`bbd35c4`](https://github.com/stdlib-js/stdlib/commit/bbd35c47bea4a1d9bd5a1867ba0d370e4e929c9c) - **feat:** add `stats/incr/incrnanmae` [(#6065)](https://github.com/stdlib-js/stdlib/pull/6065) _(by Jayahari Adithya, Philipp Burckhardt, stdlib-bot)_
+-   [`bbd35c4`](https://github.com/stdlib-js/stdlib/commit/bbd35c47bea4a1d9bd5a1867ba0d370e4e929c9c) - **feat:** add `stats/incr/nanmae` [(#6065)](https://github.com/stdlib-js/stdlib/pull/6065) _(by Jayahari Adithya, Philipp Burckhardt, stdlib-bot)_
 
 </details>
 
