@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2026 The Stdlib Authors.
@@ -16,16 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
 /**
-* Compute the mean absolute error incrementally, ignoring `NaN` values.
+* If provided input values, the accumulator function returns an updated mean absolute error. If not provided input values, the accumulator function returns the current mean absolute error.
 *
-* @module @stdlib/stats-incr-nanmae
+* ## Notes
+*
+* -   If either provided value is `NaN`, the accumulated value is unchanged and remains the current mean absolute error (or `null` if no valid values have been provided).
+*
+* @param x - input value
+* @param y - input value
+* @returns mean absolute error or null
+*/
+type accumulator = ( x?: number, y?: number ) => number | null;
+
+/**
+* Returns an accumulator function which incrementally computes the mean absolute error, ignoring `NaN` values.
+*
+* @returns accumulator function
 *
 * @example
-* var incrnanmae = require( '@stdlib/stats-incr-nanmae' );
-*
 * var accumulator = incrnanmae();
 *
 * var m = accumulator();
@@ -49,12 +62,9 @@
 * m = accumulator();
 * // returns 4.0
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function incrnanmae(): accumulator;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = incrnanmae;
